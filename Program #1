@@ -35,6 +35,8 @@ calculate_button = tk.Button(root, text="Calculate MPG", command=calculate_mpg)
 calculate_button.grid(row=2, column=0, columnspan=2, pady=10)  
 
 # Label to show result  
+
+# Jadon Anderstrom, 11/19/2024, "MPG Claculator".
 result_label = tk.Label(root, text="")  
 result_label.grid(row=3, column=0, columnspan=2, pady=10)  
 
